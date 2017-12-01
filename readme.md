@@ -1,10 +1,10 @@
-#Not-So-Forbidden AJAX Doughnuts
+# Not-So-Forbidden AJAX Doughnuts
 
 You're about to write AJAX-backed JavaScript that will access an API and loop through/display data using `setInterval`.
 
 Make use of the fantastic and delicious https://api.doughnuts.ga.  Your task is to use your JS skills to fetch all the doughnuts in our database. Then, loop through the array and display each doughnut for one second.
 
-##Getting Started
+## Getting Started
 
 * Fork and clone this repository
 * Run `npm install` to install dependencies
