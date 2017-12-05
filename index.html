@@ -3,12 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello World</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <title>Pokemon Fun World</title>
 </head>
 <body>
-  <h1>Hello World</h1>
-
-  <!-- Do the things here -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h1>Pokemon Fun World</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4">
+        <h2>Sidebar</h2>
+        <div id="result-list"></div>
+      </div>
+      <div class="col-xs-8">
+        <h2>Slideshow</h2>
+        <div>
+          <h3 id="result-name">Slideshow starting...</h3>
+          <img id="result-img">
+          <div>
+            <span id="result-details"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/script.js"></script>
 </body>
