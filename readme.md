@@ -11,6 +11,8 @@ You can make use of the [Pokemon API](https://pokeapi.co/), or if pokemon isn't 
   * `npm start` - start the BrowserSync server
   * `npm run lint:css` - lint CSS
   * `npm run lint:js` - lint JS
+  
+> NOTE: You won't be able to run AJAX requests from a file, so make sure you complete this step! See this [Stack Overflow article](https://stackoverflow.com/questions/18998192/ajax-code-do-not-run-locally) for more explanation as to why.
 
 ## Hints
 
